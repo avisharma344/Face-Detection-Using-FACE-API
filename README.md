@@ -1,5 +1,5 @@
 # Crime Preventer Web-Application
-## Submission for Microsoft Engage 2022 
+
 
 Crime Preventer Using **Face API** of JavaScript by **recognizing faces** of the suspects.
 
