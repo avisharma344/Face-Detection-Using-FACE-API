@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./public/img/favicon.png"> <!-- Icon taken from freepik.com -->
+    <link rel="stylesheet" href="./public/css/indexStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Crime Preventer</title>
+</head>
+
+<body>
+    <nav class="navbar h-nav-resp ">
+        <ul class="nav-list v-class-resp">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#working">Working</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>0
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Welcome to <span class="theme-color">Crime Preventer</span> using <span
+                        class="auto-input theme-color"></span></p>
+                <p class="text-small text-small-main">We can prevent crime by Face Recognition, if we have face data of
+                    the suspected ones. In any live video / CCTV stream, by providing this data a suspect can be
+                    detected before they commit crime thus preventing the crime.</p>
+                <div class="buttons">
+                    <a href="./public/mainPage.html"><button class="btn">DEMO!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secRight downbackground">
+        <div class="paras">
+            <p class="text-big"><span class="auto-input2 theme-color"></span></p>
+            <p class="sectionSubtag text-small">
+                The Face Recognition is implemented with the help of <a class="textLinks"
+                    href="https://github.com/justadudewhohacks/face-api.js/" target="_blank"><span
+                        class="theme-color themeLinks">Face API</span></a> which is an API from JavaScript. The
+                front-end of this website is designed with HTML and styled by CSS. In JavaScript the Face-API is used
+                for Face Detection and Recognition in the browser and it is implemented on the top of Tensorflow's core
+                API.
+            </p>
+        </div>
+        <img src="./public/img/facebg.jpeg" alt="Face Animation" class="imgFluid" width="800p" height="400">
+    </section>
+
+    <section class="secRight left downbackground" id="working">
+        <div class="paras">
+            <p class="sectionTag text-big theme-color">Working of the Project.</p>
+            <p class="sectionSubtag text-small">
+                The program takes images/videos of the suspected persons who have a track record of crimes as input then
+                extract the face data from them by using Face Detection. Afterwards it takes a video source may be a
+                prerecorded footage or a live footage and recognizes faces in that source and if any of the faces match
+                it alerts that the suspect is captured.</p>
+        </div>
+        <img src="./public/img/airportSecurity.jpg" alt="Face Animation" class="imgFluid" width="800p" height="400">
+    </section>
+
+    <section class="timeline">
+        <img src="./public/img/face-png-cropped.png" alt="Face-PNG" class="imgFluid" width="800p" height="400">
+        <div class="timetext">
+            <p class="text-big">About The Project</p>
+            <p class="text-small">This Project is made as a Final Year Project of College : Ramrao Adik Institute of Technology.We faced different challenges throughout this three weeks
+                journery and we overcame them with the help of internet which made this journey more intresting and
+                enojoyable.</p>
+            <div class="buttons">
+                <a href=""
+                    target="_blank"><button class="btn" style="color: green;">Witness My Journery!</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-texts">
+        <p>Main Features</p>
+    </section>
+    <section class="hero">
+        <div class="card-grid">
+            <a href="#" class="card">
+                <div class="bg-cards" style="background-image: url(./public/img/cam1.jpg);"></div>
+                <div class="content">
+                    <p class="category">Live Video</p>
+                    <h2 class="heading">A suspect can be found in a live video footage from a camera stream.</h2>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <div class="bg-cards" style="background-image: url(./public/img/video1.jpg);"></div>
+                <div class="content">
+                    <p class="category">Video footage</p>
+                    <h2 class="heading">A pre-recorderd video footage can also be used as a video stream to find
+                        suspeect.</h2>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <div class="bg-cards" style="background-image: url(./public/img/suspect.jpg);"></div>
+                <div class="content">
+                    <p class="category">Images Input</p>
+                    <h2 class="heading">The model can be trained by taking images of the suspect.</h2>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <div class="bg-cards" style="background-image: url(./public/img/cctv1.jpg);"></div>
+                <div class="content">
+                    <p class="category">CCTV Footage.</p>
+                    <h2 class="heading">Multiple Live Video can be used to prevent crime like in an airport.</h2>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer class="background footer-all">
+
+        <p class="link-footer" id="connect">
+            <a class="link-anchor" href="mailto:21avisharma@gmail.com"><i class="fa fa-envelope "
+                    target="_blank"></i></a>
+            <a class="link-anchor" href="https://www.linkedin.com/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./public/js/indexResponsive.js"></script>
+</body>
+
+</html>
